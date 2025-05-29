@@ -1,0 +1,77 @@
+/* Hero  */
+.hero {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo {
+    width: 75%;
+    margin-inline: auto;
+}
+.hero > p {
+    margin-top: 30px;
+    width: 75%;
+    margin-inline: auto;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+/* Login, Sign Up, Verify */
+.sign-up, .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-up, .login {
+    flex: 3;
+}
+.sign-up > *, .login > * {
+    width: 70%;
+    margin-inline: auto;
+}
+.sign-up p:first-child, .login p:first-child {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.sign-up > p:last-child, .login > p:last-child {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+form > * {
+    width: 100%;
+}
+label {
+    font-size: 15px;
+}
+input {
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 15px;
+    padding-inline: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+.btn {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}

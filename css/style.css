@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Text  */
+.txt-white {
+    color: white;
+}
+.txt-light {
+    color: #AEAEAE;
+}
+.txt-gold {
+    color: #FAAF3D;
+}
+
+/* Background */
+.bg-gray {
+    background-color: #171717;
+}
+.bg-black { 
+    background-color: #121212;
+}
+.bg-gold {      
+    background-color: #FAAF3D;
+}
+
+/* Button */
+.btn {
+    background-color: #FAAF3D;
+}
+.btn:hover {
+    background-color: #ffc061;
+    color: black;
+}
+
+.hero-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1536px;
+}
+
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #ffc061;
+}

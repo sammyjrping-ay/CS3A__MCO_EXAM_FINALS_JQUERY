@@ -1,0 +1,206 @@
+header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+#fyp-logo {
+    margin-left: 50px;
+    width: 150px;
+}
+nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 22px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+#logout {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 22px;
+}
+header i {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.fyp-container {
+    margin-top: 100px;
+}
+
+.post {
+    margin-top: 70px;
+    width: 900px;
+    margin-inline: auto;
+    padding: 30px 40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+.post-header {
+    display: flex;
+    align-items: center;
+}
+.profile {
+    height: 70px;
+    width: 70px !important;
+    object-fit: cover !important;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+.post-header h2 {
+    margin-left: 20px;
+}
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.content p {
+    width: 400px;
+    margin-left: auto;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 36px;
+}
+.content-column {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content img, .content-column img {
+    border: 1px solid white;
+}
+.content-column p {
+    margin-top: 20px;
+    width: 700px;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 36px;
+}
+i {
+    font-size: 25px;
+    margin-left: auto;
+}
+.post-footer {
+    display: flex;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.comments {
+    margin-left: 50px;
+}
+.shares {
+    margin-left: auto;
+}
+.post-footer p {
+    margin-left: 8px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.post-form {
+    width: 900px;
+    margin-inline: auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.post-form textarea {
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.post-form textarea::placeholder {
+    color: #AEAEAE;
+}
+
+#image-upload {
+    background-color: #171717;
+    color: #AEAEAE;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+}
+
+#image-upload::-webkit-file-upload-button {
+    background-color: #FAAF3D;
+    border: none;
+    color: black;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#image-upload::-webkit-file-upload-button:hover {
+    background-color: #ffc061;
+}
+
+.submit-button {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.timestamp {
+    margin-left: 20px;
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.bookmark-icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.bookmark-icon.active {
+    color: gold;
+}
+
+.heart-icon {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.heart-icon.active {
+    color: red;
+}
+
+.share-icon {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.share-icon.active {
+    color: white; /* Example: Twitter blue, you can change it */
+}

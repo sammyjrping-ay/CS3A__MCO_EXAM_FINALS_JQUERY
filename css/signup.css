@@ -1,0 +1,51 @@
+label {
+    font-size: 13px;
+}
+input {
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.sign-up p:first-child {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.sign-up > p:last-child {
+    margin-top: 10px;
+}
+.btn {
+    margin-top: 0px;
+}
+
+.file-input-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+  .file-input-label, .file-name {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: black;
+    background-color: #FAAF3D;
+    font-weight: bold;
+  }
+
+  .file-input-label {
+    padding-top: 8px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .file-name {
+    padding-bottom: 8px;
+    border-radius: 0px 0px 5px 5px;
+  }
+  #profile_image {
+    display: none;
+  }

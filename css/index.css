@@ -1,0 +1,47 @@
+nav {
+    margin-right: 50px;
+}
+
+video {
+    margin-inline: auto;
+    width: 78%;
+    height: auto;
+}
+body {
+    text-align: center;
+}
+.hero-container {
+    width: 99vw;
+}
+footer {
+    height: 120px;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+footer p {
+    margin-bottom: 5px;
+}
+footer h1 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+.feature h2 {
+    background-color: #121212;
+    padding: 15px;
+}
+.feature img {
+    width: 450px;
+}
+.fyp-container {
+    margin-top: 80px;
+}
